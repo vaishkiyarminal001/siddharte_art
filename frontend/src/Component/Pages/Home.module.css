@@ -1,0 +1,85 @@
+.home {
+    margin-top: 8rem;
+    padding: 2rem; 
+  }
+  
+.bannerText{
+    font-family: 'Rubik Mono One', monospace;
+    width: 100%;
+    /* border: 1px solid red; */
+    font-size: 10rem;   
+}
+
+.bannerText h1{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+    background: -webkit-linear-gradient(#652fb9, #cb076d, #db025d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+/* responsive css style  */
+@media (max-width: 1080px) {
+
+    .home {
+        margin-top: 8rem;
+        padding: 2rem; 
+      }
+
+      .bannerText h1 {
+        font-size: 7rem;
+      }
+
+   
+  }
+  
+  /* responsive css style  */
+  @media (max-width: 998px) {
+
+    .home {
+        margin-top: 8rem;
+        padding: 2rem; 
+      }
+      
+    .bannerText h1 {
+        font-size: 6rem;
+    }
+    
+ 
+    
+  }
+  
+  @media (max-width: 798px) {
+
+    .home {
+        margin-top: 8rem;
+        padding: 2rem; 
+      }
+
+
+    .bannerText h1 {
+        font-size: 5rem;
+    }
+    
+  
+    
+  }
+  
+  @media (max-width: 520px) {
+
+    .home {
+        margin-top: 8rem;
+        padding: 2rem; 
+      }
+      
+    .bannerText h1 {
+        font-size: 4rem;
+    }
+   
+  }

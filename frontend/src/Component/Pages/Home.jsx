@@ -1,45 +1,51 @@
 import React from 'react'
 import HomeCSS from "./Home.module.css";
-import {useTypewriter, Cursor} from 'react-simple-typewriter';
+import Typewriter from 'typewriter-effect';
+
 
 
 
 
 
 export const Home = () => {
- 
-  const {text} = useTypewriter({
-    words: ['SIDDHARTE', 'ARTE'],
-    loop: {},
-  });
   
+  
+ 
   
   
   
   return (
-    <div>
-        {/* text animation */}
-
-        <div className={HomeCSS.text}>
-          <h1 style={{margin: '50px'}}>
-            Welcome to
-            <span style={{fontWeight: 'bold', color: '#043642'}}>{text}</span>
-            <Cursor/>
-          </h1>
-        </div>
+    <div className={HomeCSS.home}>
+     
+      {/* text animation */}
 
 
+      <div className={HomeCSS.bannerText}>
+        {/* <h1>SIDDHARTE</h1> */}
 
-        {/* video */}
+        <h1>
+          <Typewriter
+          options={{
+            autoStart: true,
+            loop: true,
+            delay: 200,
+            strings: ["SIDDHARTE"]
+           }}
+          />
+        </h1>
 
-        <div className={HomeCSS.video}>
-
-        </div>
+      </div>
 
 
+      {/* video */}
+      <div className={HomeCSS.video}>
 
 
 
+
+
+
+      </div>
     </div>
-  )
+  );
 }

@@ -19,18 +19,16 @@ li {
 /* navbar style start  */
 
 .main-nav {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: "Jost", sans-serif;
-  position: fixed;
+  position: fixed;  
+  top: 0;           
   width: 100%;
+  z-index: 1; 
   height: 10rem;
   display: grid;
   grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    z-index: 1;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
     /* border: 1px solid red; */
 }
 
@@ -38,7 +36,6 @@ li {
   display: grid;
   grid-column: 2/3;
   height: 9.5rem;
-
   justify-content: start;
   align-items: center;
 }
@@ -60,6 +57,7 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
   /* border:  1px solid red; */
 }
 
