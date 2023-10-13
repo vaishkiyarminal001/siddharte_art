@@ -15,9 +15,15 @@
     /* border: 1px solid red; */
     margin-top: 0;
     margin-bottom: 0;
-    background: -webkit-linear-gradient(#652fb9, #cb076d, #db025d);
+    background: -webkit-linear-gradient(#aaa8a8, #565656, #000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+.video{
+    border: 1px solid red;
+    width: 100%;
 }
 
 
