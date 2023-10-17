@@ -36,7 +36,7 @@ li {
   display: grid;
   grid-column: 2/3;
   height: 9.5rem;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -88,8 +88,9 @@ li {
   font-size: 1.5rem;
   border: none;
   padding: 1.2%;
-  background-color: #e1e1e1;
+  /* background-color: black; */
   border-radius: 70px; 
+  /* color: white; */
 }
 
 

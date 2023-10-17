@@ -11,6 +11,7 @@ import { Services } from '../Pages/Services';
 import { Contact } from '../Pages/Contact';
 import { Gallery } from '../Pages/Gallery';
 import logo from "./Logo 2.png";
+
 export const Navbar = () => {
 
     const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -96,6 +97,8 @@ export const Navbar = () => {
                     
                 </li>
             </ul>
+
+           
 
             {/* hamburger menu */}
         
