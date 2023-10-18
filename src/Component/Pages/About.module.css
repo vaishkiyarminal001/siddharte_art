@@ -1,0 +1,68 @@
+.about {
+    margin-top: 8rem;
+    padding: 2rem; 
+    background-color: black;
+    border: 1px solid red;
+  }
+
+  .about h1{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Tilt Neon', sans-serif;
+
+  }
+
+  .upperPart{
+    display: flex;
+    border: 1px solid red;
+    width: 100%;
+    
+  }
+
+
+  .upperText{
+    border: 1px solid red;
+    width: 50%;
+    color: white;
+    text-align: left;
+  }
+
+  .upperText h2{
+    font-size: 3rem;
+  }
+
+  .upperText p{
+    font-size: 2rem;
+  }
+
+
+
+
+  .upperImg{
+    border: 1px solid red;
+    width: 50%;
+  }
+
+  .upperImg img{
+    width: 50%;
+  }
+
+
+  /* responsive css style  */
+@media (max-width: 1080px){
+
+}
+
+
+@media (max-width: 998px){
+
+}
+
+
+@media (max-width: 798px){
+
+}
+
+@media (max-width: 520px){
+
+}

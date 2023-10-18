@@ -1,0 +1,547 @@
+.home {
+    margin-top: 8rem;
+    padding: 2rem; 
+    background-color: black;
+  }
+  
+.bannerText{
+  font-family: 'Vollkorn', serif;
+    width: 100%;
+    /* border: 1px solid red; */
+    font-size: 10rem;   
+}
+
+.bannerText h1{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+    background: -webkit-linear-gradient(white, rgb(211, 210, 210), rgb(193, 191, 191));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.video{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 0;
+    border-radius: 20px;
+}
+
+.video video{
+  border-radius: 20px;
+}
+
+.ExploringText{
+  font-family: 'Dancing Script', cursive;
+  margin-top: 3%;
+  font-size: 2.5rem;
+  color: white;
+  /* border: 1px solid red; */
+}
+
+.ExploringText h2{
+  /* border: 1px solid red; */
+}
+
+.DrumPart{
+  /* border: 1px solid red; */
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 2.5rem;
+  width: 100%;
+  color: white;
+
+
+}
+
+
+.DrumImage{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  color: white;
+  /* padding: 1%; */
+ 
+}
+
+.DrumImage img{
+  /* border: 1px solid red; */
+  width: 90%;
+  border-radius: 10px;
+  /* padding: 2%; */
+  margin: auto;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+}
+
+
+
+.ManyInstrument{
+  /* border: 1px solid red; */
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 2.5rem;
+  width: 100%;
+  margin-top: 3%;
+  color: white;
+
+
+}
+
+
+.ManyInstrumentImg{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  margin-top: 0;
+  /* padding: 1%; */
+ 
+}
+
+.ManyInstrumentImg img{
+  /* border: 1px solid red; */
+  width: 90%;
+  border-radius: 10px;
+  /* padding: 2%; */
+  margin: auto;
+  
+}
+
+.InstrumentBtn{
+  /* border: 1px solid red; */
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+  /* background: #28272a; */
+}
+
+.Btntext{
+  position: relative;
+  width: 200px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 2px;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.35);
+  border-left: 0.5px solid rgba(255, 255, 255, 0.35);
+  padding-left: 40px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.Btntext:hover{
+  padding-left: 0px;
+  padding-right: 40px;
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.Btntext span{
+  position: absolute;
+  left: 5px;
+  width: 50px;
+  height: 50px;
+  background: #04fe4d;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1a191d;
+  font-size: 1.5rem;
+  /* border: 1px solid red; */
+  /* color: white; */
+}
+
+.Btntext:after{
+
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 100%;
+  z-index: 1;
+  background: rgb(255, 255, 255, 0.25);
+  transform: translateX(-200px) skewX(30deg);
+
+}
+
+
+.Btntext:hover:after{
+  transform: translateX(170px) skewX(30deg);
+
+
+}
+
+
+.Btntext:hover span{
+  left: calc(100% - 55px);
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive css style  */
+@media (max-width: 1080px) {
+
+    .home {
+        margin-top: 8rem;
+        padding: 2rem; 
+      }
+
+      .bannerText h1 {
+        font-size: 7rem;
+      }
+
+      .ExploringText{
+        font-family: 'Dancing Script', cursive;
+        margin-top: 3%;
+        font-size: 1.5rem;
+        color: white;
+        /* border: 1px solid red; */
+      }
+
+      .DrumPart{
+        /* border: 1px solid red; */
+        font-family: 'Tilt Neon', sans-serif;
+        font-size: 2rem;
+        width: 100%;
+      
+      
+      }
+      
+      
+      .DrumImage{
+        /* border: 1px solid red; */
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+        /* padding: 1%; */
+       
+      }
+      
+      .DrumImage img{
+        /* border: 1px solid red; */
+        width: 90%;
+        border-radius: 10px;
+        /* padding: 2%; */
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+      }
+
+      
+.ManyInstrument{
+  /* border: 1px solid red; */
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 2.5rem;
+  width: 100%;
+  margin-top: 3%;
+  color: white;
+
+
+}
+
+
+.ManyInstrumentImg{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  margin-top: 0;
+  /* padding: 1%; */
+ 
+}
+
+.ManyInstrumentImg img{
+  /* border: 1px solid red; */
+  width: 90%;
+  border-radius: 10px;
+  /* padding: 2%; */
+  margin: auto;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+}
+      
+    
+
+   
+  }
+  
+  /* responsive css style  */
+  @media (max-width: 998px) {
+
+    .home {
+        margin-top: 8rem;
+        padding: 2rem; 
+      }
+      
+    .bannerText h1 {
+        font-size: 6rem;
+    }
+
+    .ExploringText{
+      font-family: 'Dancing Script', cursive;
+      margin-top: 3%;
+      font-size: 1.5rem;
+      color: white;
+
+      /* border: 1px solid red; */
+    }
+
+
+    .DrumPart{
+      /* border: 1px solid red; */
+      font-family: 'Tilt Neon', sans-serif;
+      font-size: 2rem;
+      width: 100%;
+      color: white;
+    }
+    
+    
+    .DrumImage{
+      /* border: 1px solid red; */
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 5px;
+      /* padding: 1%; */
+     
+    }
+    
+    .DrumImage img{
+      /* border: 1px solid red; */
+      width: 90%;
+      border-radius: 10px;
+      /* padding: 2%; */
+      margin: auto;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+
+
+    
+.ManyInstrument{
+  /* border: 1px solid red; */
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 2.5rem;
+  width: 100%;
+  margin-top: 3%;
+  color: white;
+
+
+}
+
+
+.ManyInstrumentImg{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  margin-top: 0;
+  /* padding: 1%; */
+ 
+}
+
+.ManyInstrumentImg img{
+  /* border: 1px solid red; */
+  width: 90%;
+  border-radius: 10px;
+  /* padding: 2%; */
+  margin: auto;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+}
+    
+   
+    
+ 
+    
+  }
+  
+  @media (max-width: 798px) {
+
+    .home {
+        margin-top: 8rem;
+        padding: 2rem; 
+      }
+
+
+    .bannerText h1 {
+        font-size: 5rem;
+    }
+
+    .ExploringText{
+      font-family: 'Dancing Script', cursive;
+      margin-top: 3%;
+      font-size: 1rem;
+      color: white;
+
+      /* border: 1px solid red; */
+    }
+    
+
+    .DrumPart{
+      /* border: 1px solid red; */
+      font-family: 'Tilt Neon', sans-serif;
+      font-size: 1rem;
+      width: 100%;
+    
+    
+    }
+    
+    
+    .DrumImage{
+      /* border: 1px solid red; */
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 5px;
+      /* padding: 1%; */
+     
+    }
+    
+    .DrumImage img{
+      /* border: 1px solid red; */
+      width: 90%;
+      border-radius: 10px;
+      /* padding: 2%; */
+      margin: auto;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+   
+    
+.ManyInstrument{
+  /* border: 1px solid red; */
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 2.5rem;
+  width: 100%;
+  margin-top: 3%;
+  color: white;
+
+
+}
+
+
+.ManyInstrumentImg{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 10px;
+  margin-top: 0;
+  /* padding: 1%; */
+ 
+}
+
+.ManyInstrumentImg img{
+  /* border: 1px solid red; */
+  width: 90%;
+  border-radius: 10px;
+  /* padding: 2%; */
+  margin: auto;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+}
+    
+  
+    
+  }
+  
+  @media (max-width: 520px) {
+
+    .home {
+        margin-top: 8rem;
+        padding: 2rem; 
+      }
+      
+    .bannerText h1 {
+        font-size: 4rem;
+    }
+
+    .ExploringText{
+      font-family: 'Dancing Script', cursive;
+      margin-top: 3%;
+      font-size: 1rem;
+      color: white;
+
+      /* border: 1px solid red; */
+    }
+    
+    .DrumPart{
+      /* border: 1px solid red; */
+      font-family: 'Tilt Neon', sans-serif;
+      font-size: 1rem;
+      width: 100%;
+    
+    
+    }
+    
+    
+    .DrumImage{
+      /* border: 1px solid red; */
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 5px;
+      /* padding: 1%; */
+     
+    }
+    
+    .DrumImage img{
+      /* border: 1px solid red; */
+      width: 90%;
+      border-radius: 10px;
+      padding: 2%;
+      margin: auto;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+
+    
+.ManyInstrument{
+  /* border: 1px solid red; */
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-top: 3%;
+  color: white;
+
+
+}
+
+
+.ManyInstrumentImg{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 10px;
+  margin-top: 0;
+  /* padding: 1%; */
+ 
+}
+
+.ManyInstrumentImg img{
+  /* border: 1px solid red; */
+  width: 90%;
+  border-radius: 10px;
+  /* padding: 2%; */
+  margin: auto;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+}
+    
+   
+  }
