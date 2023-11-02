@@ -15,10 +15,6 @@ li {
   list-style: none;
 }
 
-/* 
- 
-
-/* navbar style start  */
 
 .main-nav {
   font-family: "Jost", sans-serif;
@@ -28,36 +24,25 @@ li {
   z-index: 1; 
   height: 10rem;
   display: grid;
-  /* color: white; */
-  /* border: 1px solid red; */
   background-color: white;
 
   grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
-    /* border: 1px solid red; */
 }
 
 .logo {
   display: grid;
   grid-column: 2/3;
   height: 9.5rem;
-  /* border: 1px solid red; */
-  /* margin-top: 0; */
-  /* justify-content: flex-start; */
   align-items: center;
 }
 
 .logo img{
   width: 65%;
   margin-top: 0;
-  /* height: 100%; */
-  /* border: 1px solid red; */
 }
 
 .menu-link {
   grid-column: 3/4;
-  /* border:  1px solid red; */
   color: white;
   height: 9.5rem;
 }
@@ -66,10 +51,8 @@ li {
   height: 10rem;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   color: white;
-  
-  /* border:  1px solid red; */
 }
 
 
@@ -99,7 +82,6 @@ li {
   font-size: 1.5rem;
   border: none;
   padding: 1.2%;
-  /* background-color: black; */
   border-radius: 70px; 
   
 }
@@ -109,7 +91,6 @@ li {
   
   color: rgba(0, 0, 3, 0.8);
   transition: 0.5s;
-  /* background-color: black; */
 
 }
 .menu-link ul li:hover > a {
@@ -150,7 +131,6 @@ li {
 
 
 
-/* responsive css style  */
 @media (max-width: 1080px) {
   .main-nav {
     height: 8rem;
@@ -165,12 +145,10 @@ li {
 
   .logo img{
     width: 55%;
-    /* height: 100%; */
-    /* border: 1px solid red; */
   }
 }
 
-/* responsive css style  */
+
 @media (max-width: 998px) {
   .main-nav {
     height: 7rem;
@@ -188,8 +166,6 @@ li {
 
   .logo img{
     width: 55%;
-    /* height: 100%; */
-    /* border: 1px solid red; */
   }
 
   .mobile-menu-link {
@@ -202,7 +178,6 @@ li {
     background-color: white;
     height: 25rem;
     width: 100%;
-    /* border: 1px solid red; */
     display: grid;
     grid-column: 2/5;
     align-items: center;
@@ -218,8 +193,6 @@ li {
   border: none;
   padding: 1.2%;
   background-color: #e1e1e1;
-  /* border-radius: 50px; */
-  /* border: 1px solid red; */
   width: 100%;
   
   }
@@ -276,8 +249,7 @@ li {
 
   .logo img{
     width: 60%;
-    /* height: 100%; */
-    /* border: 1px solid red; */
+  
   }
 
   .social-media {
@@ -306,8 +278,7 @@ li {
 
   .logo img{
     width: 60%;
-    /* height: 100%; */
-    /* border: 1px solid red; */
+   
   }
   .social-media {
     height: 6rem;
@@ -322,3 +293,5 @@ li {
   }
 
 }
+
+

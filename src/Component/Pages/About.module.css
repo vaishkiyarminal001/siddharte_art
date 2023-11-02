@@ -2,7 +2,7 @@
     margin-top: 8rem;
     padding: 2rem; 
     background-color: black;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .about h1{
@@ -14,14 +14,14 @@
 
   .upperPart{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     
   }
 
 
   .upperText{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
     color: white;
     text-align: left;
@@ -39,7 +39,7 @@
 
 
   .upperImg{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
   }
 
@@ -51,18 +51,194 @@
   /* responsive css style  */
 @media (max-width: 1080px){
 
+  
+  .about h1{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Tilt Neon', sans-serif;
+
+  }
+
+  .upperPart{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    
+  }
+
+
+  .upperText{
+    /* border: 1px solid red; */
+    width: 50%;
+    color: white;
+    text-align: left;
+  }
+
+  .upperText h2{
+    font-size: 3rem;
+  }
+
+  .upperText p{
+    font-size: 2rem;
+  }
+
+
+
+
+  .upperImg{
+    /* border: 1px solid red; */
+    width: 50%;
+  }
+
+  .upperImg img{
+    width: 50%;
+  }
+
 }
 
 
 @media (max-width: 998px){
+
+  
+  .about h1{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Tilt Neon', sans-serif;
+
+  }
+
+  .upperPart{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* border: 1px solid red; */
+    width: 100%;
+    
+  }
+
+
+  .upperText{
+    /* border: 1px solid red; */
+    width: 100%;
+    color: white;
+    text-align: left;
+  }
+
+  .upperText h2{
+    font-size: 3rem;
+  }
+
+  .upperText p{
+    font-size: 2rem;
+  }
+
+
+
+
+  .upperImg{
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .upperImg img{
+    width: 50%;
+  }
 
 }
 
 
 @media (max-width: 798px){
 
+  
+  .about h1{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Tilt Neon', sans-serif;
+
+  }
+
+  .upperPart{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* border: 1px solid red; */
+    width: 100%;
+    
+  }
+
+  .upperImg{
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .upperImg img{
+    width: 50%;
+  }
+
+
+  .upperText{
+    /* border: 1px solid red; */
+    width: 100%;
+    color: white;
+    text-align: left;
+  }
+
+  .upperText h2{
+    font-size: 2rem;
+  }
+
+  .upperText p{
+    font-size: 1.5rem;
+  }
+
+
+
+
+  
+
 }
 
 @media (max-width: 520px){
+
+  
+  .about h1{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Tilt Neon', sans-serif;
+
+  }
+
+  .upperPart{
+    /* border: 1px solid red; */
+    width: 100%;
+    
+  }
+
+  .upperImg{
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .upperImg img{
+    width: 50%;
+  }
+
+
+  .upperText{
+    /* border: 1px solid red; */
+    width: 100%;
+    color: white;
+    text-align: left;
+  }
+
+  .upperText h2{
+    font-size: 2rem;
+  }
+
+  .upperText p{
+    font-size: 1.5rem;
+  }
+
+
+
+
 
 }

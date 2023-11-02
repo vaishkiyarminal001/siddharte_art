@@ -10,6 +10,10 @@ export const About = () => {
       <h1>About Us</h1>
 
       <div className={AboutCSS.upperPart}>
+
+      <div className={AboutCSS.upperImg}>
+          <img src="https://w0.peakpx.com/wallpaper/150/875/HD-wallpaper-buddha-spiritual.jpg" alt="" />
+        </div>
         
         <div className={AboutCSS.upperText}>
 
@@ -37,9 +41,7 @@ When art and spirituality converge, a symphony of transcendental experiences is 
 
         </div>
 
-        <div className={AboutCSS.upperImg}>
-          <img src="https://w0.peakpx.com/wallpaper/150/875/HD-wallpaper-buddha-spiritual.jpg" alt="" />
-        </div>
+        
       </div>
       
     </div>

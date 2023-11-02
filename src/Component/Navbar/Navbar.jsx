@@ -81,7 +81,7 @@ export const Navbar = () => {
         {/* social media links */}
 
         <div className= {`${NavbarCSS['social-media']}`}>
-            <ul className={`${NavbarCSS['social-media-desktop']}`}>
+            {/* <ul className={`${NavbarCSS['social-media-desktop']}`}>
                 <li>
                     <a href='https://www.frcebook.corn/profile.php?id=100093478957091 & mibextid=LQQJ4d'/><FaFacebook className={NavbarCSS.facebook}/>
                     
@@ -96,7 +96,7 @@ export const Navbar = () => {
                     <a href='https://www.youtube.com/@marly_marquez'/><FaYoutube className={NavbarCSS.youtube}/>
                     
                 </li>
-            </ul>
+            </ul> */}
 
            
 
