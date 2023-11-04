@@ -5,17 +5,17 @@ import Typewriter from 'typewriter-effect';
 import { useNavigate } from 'react-router-dom';
 // import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
-import Final from "./Final.mp4"
+import Final from "../../assets/Final.mp4"
 // import smoke from "./smoke.mp4"
-import drum1 from "./drum1.jpg";
-import drum2 from "./drum2.jpg";
-import drum3 from "./drum3.jpg";
-import drum4 from "./drum4.jpg";
+import drum1 from "../../assets/drum1.jpg";
+import drum2 from "../../assets/drum2.jpg";
+import drum3 from "../../assets/drum3.jpg";
+import drum4 from "../../assets/drum4.jpg";
 
-import ins1 from "./l1.jpg";
-import ins2 from "./l2.jpg";
-import ins3 from "./l3.jpg";
-import ins4 from "./l4.jpg";
+import ins1 from "../../assets/l1.jpg";
+import ins2 from "../../assets/l2.jpg";
+import ins3 from "../../assets/l3.jpg";
+import ins4 from "../../assets/l4.jpg";
 
 
 
