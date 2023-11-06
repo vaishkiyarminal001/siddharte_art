@@ -1,0 +1,204 @@
+.footer{
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 3%;
+    font-size: 2rem;
+}
+
+.footSeconf{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.footIcon{
+    /* border: 1px solid red; */
+    width: 10%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 1%;
+    font-size: 2rem;
+    display: flex;
+
+}
+
+.CreatedBy{
+    /* border: 1px solid red; */
+    color: white;
+}
+
+
+
+
+
+@media (max-width: 1080px) {
+
+    .footer{
+        /* border: 1px solid red; */
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+        font-size: 2rem;
+    }
+    
+    .footSeconf{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        /* border: 1px solid red; */
+        justify-content: space-around;
+        cursor: pointer;
+    }
+    
+    .footIcon{
+        /* border: 1px solid red; */
+        width: 10%;
+        margin: auto;
+        justify-content: space-around;
+        padding: 1%;
+        font-size: 2rem;
+        display: flex;
+    }
+    
+    .CreatedBy{
+        /* border: 1px solid red; */
+        color: white;
+    }
+   
+    
+}
+
+@media (max-width: 998px) {
+
+    .footer{
+        /* border: 1px solid red; */
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+        font-size: 2rem;
+    }
+    
+    .footSeconf{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        /* border: 1px solid red; */
+        justify-content: space-around;
+        cursor: pointer;
+    }
+    
+    .footIcon{
+        /* border: 1px solid red; */
+        width: 10%;
+        margin: auto;
+        justify-content: space-around;
+        padding: 1%;
+        font-size: 2rem;
+        display: flex;
+    }
+    
+    .CreatedBy{
+        /* border: 1px solid red; */
+        color: white;
+    }
+
+   
+    
+}
+
+@media (max-width: 798px) {
+
+    .footer{
+        /* border: 1px solid red; */
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+        font-size: 1.5rem;
+    }
+    
+    .footSeconf{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        /* border: 1px solid red; */
+        justify-content: space-around;
+        cursor: pointer;
+    }
+    
+    .footIcon{
+        /* border: 1px solid red; */
+        width: 10%;
+        margin: auto;
+        justify-content: space-around;
+        padding: 1%;
+        font-size: 2rem;
+     
+    }
+    
+    .CreatedBy{
+        /* border: 1px solid red; */
+        color: white;
+    }
+   
+    
+}
+
+@media (max-width: 520px) {
+
+    .footer{
+        /* border: 1px solid red; */
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+        font-size: 1rem;
+    }
+    
+    .footSeconf{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        /* border: 1px solid red; */
+        justify-content: space-around;
+        cursor: pointer;
+    }
+    
+    .footIcon{
+        /* border: 1px solid red; */
+        width: 10%;
+        margin: auto;
+        justify-content: space-around;
+        padding: 1%;
+        font-size: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        
+    }
+
+    
+    .CreatedBy{
+        /* border: 1px solid red; */
+        color: white;
+    }
+
+    
+}

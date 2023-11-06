@@ -5,6 +5,8 @@ import { About } from '../Pages/About'
 import { Services } from '../Pages/Services'
 import { Contact } from '../Pages/Contact'
 import { Gallery } from '../Pages/Gallery'
+import { Singleproduct } from '../Pages/Singleproduct'
+
 
 export const Allroute = () => {
   return (
@@ -16,6 +18,7 @@ export const Allroute = () => {
             <Route path='/gallery' element={<Gallery/>}/>
             <Route path='/service' element={<Services/>}/>
             <Route path='/contact' element={<Contact/>}/>
+            <Route path='/singleproduct' element={<Singleproduct/>}/>
 
         </Routes>
 

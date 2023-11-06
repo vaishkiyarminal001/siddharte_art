@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import GalleryCSS from "./Gallery.module.css";
+import { useNavigate } from 'react-router-dom';
 
 export const Gallery = () => {
 
 
   const [state, setState] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() =>{
     DisplayDid();
@@ -36,6 +38,7 @@ export const Gallery = () => {
 
             <img src={e.image} alt='error' style={{ width: '350px', height: '350px' }}/>
             <h2>{e.title}</h2>
+            <button onClick={() => navigate(`singleproduct/${e.id}`)} className={GalleryCSS.Btn}>See More</button>
             
             
             </div>
