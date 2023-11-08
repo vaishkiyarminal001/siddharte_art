@@ -48,6 +48,16 @@
   }
 
 
+  .marlyImg{
+    width: 85%;
+    /* border: 1px solid red; */
+  }
+
+  .marlyImg img{
+    width: 100%;
+  }
+
+
   /* responsive css style  */
 @media (max-width: 1080px){
 

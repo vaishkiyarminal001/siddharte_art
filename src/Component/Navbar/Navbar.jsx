@@ -12,10 +12,10 @@ import { Gallery } from '../Pages/Gallery';
 import logo from "./Logo 2.png";
 import { buttonBaseClasses } from '@mui/material';
 
+
 export const Navbar = () => {
 
     const [showMediaIcons, setShowMediaIcons] = useState(false);
-
 
     let myLink = [
         {
