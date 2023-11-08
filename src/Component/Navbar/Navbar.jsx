@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import NavbarCSS from "./Navbar.module.css";
 import {Link, Link as RouterLink} from "react-router-dom";
-import { Navigate, useNavigate } from 'react-router-dom';
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import { Home } from '../Pages/Home';
@@ -11,6 +10,7 @@ import { Services } from '../Pages/Services';
 import { Contact } from '../Pages/Contact';
 import { Gallery } from '../Pages/Gallery';
 import logo from "./Logo 2.png";
+import { buttonBaseClasses } from '@mui/material';
 
 export const Navbar = () => {
 
@@ -81,22 +81,10 @@ export const Navbar = () => {
         {/* social media links */}
 
         <div className= {`${NavbarCSS['social-media']}`}>
-            {/* <ul className={`${NavbarCSS['social-media-desktop']}`}>
-                <li>
-                    <a href='https://www.frcebook.corn/profile.php?id=100093478957091 & mibextid=LQQJ4d'/><FaFacebook className={NavbarCSS.facebook}/>
-                    
-                </li>
-
-                <li>
-                    <a href="https://instagram.com/siddharte8?igshid=YTQwZjQONmlOOA%3D%3D&utm source-qr"/><FaInstagram className={NavbarCSS.instagram}/>
-                    
-                </li>
-
-                <li>
-                    <a href='https://www.youtube.com/@marly_marquez'/><FaYoutube className={NavbarCSS.youtube}/>
-                    
-                </li>
-            </ul> */}
+            {
+                <button className={NavbarCSS.langBtn}>English</button>
+                
+            }
 
            
 
