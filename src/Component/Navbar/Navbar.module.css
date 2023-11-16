@@ -150,11 +150,13 @@ li {
   }
 
   .logo img{
-    width: 55%;
+    width: 40%;
+    /* border: 1px solid red; */
+
   }
 
   .langBtn{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 1rem;
     margin-top: 5%;
     width: 70%;
@@ -190,6 +192,7 @@ li {
 
   .logo img{
     width: 52%;
+
   }
 
   .mobile-menu-link {

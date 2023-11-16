@@ -11,10 +11,10 @@
 .displayCard{
     /* border: 5px solid green; */
     width: 100%;
-   
+    height: 800rem;
     /* background-color: black; */
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 3%;
     margin-top: 2%;
 }
@@ -23,10 +23,12 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border: .8rem solid white;
     border-radius: .8rem;
+    /* border: 1px solid red; */
+    width: 100%;
 }
 
 .displayCard img{
-    width: 100%;
+    width: 100% !important;
   
 }
 
@@ -45,20 +47,15 @@
   
 
 
-
-
-
-
-
 @media (max-width: 1080px) {
     .displayCard{
         /* border: 5px solid green; */
         width: 100%;
-       
+        height: 800rem;
         /* background-color: black; */
         display: grid;
-        grid-template-columns: repeat(4,1fr);
-        gap: 3%;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2%;
         margin-top: 2%;
     }
     
@@ -66,10 +63,12 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border: .8rem solid white;
         border-radius: .8rem;
+        width: 100%;
+        /* border: 1px solid red; */
     }
     
     .displayCard img{
-        width: 100%;
+        width: 100% !important;
       
     }
     
@@ -80,7 +79,7 @@
     .displayCard{
         /* border: 5px solid green; */
         width: 100%;
-       
+        height: 1500rem;
         /* background-color: black; */
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -92,10 +91,11 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border: .8rem solid white;
         border-radius: .8rem;
+        width: 100%;
     }
     
     .displayCard img{
-        width: 100%;
+        width: 100% !important;
       
     }
     
@@ -105,7 +105,7 @@
     .displayCard{
         /* border: 5px solid green; */
         width: 100%;
-       
+        height: 1500rem;
         /* background-color: black; */
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -117,10 +117,11 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border: .8rem solid white;
         border-radius: .8rem;
+        width: 100%;
     }
     
     .displayCard img{
-        width: 100%;
+        width: 100% !important;
       
     }
     
@@ -129,24 +130,29 @@
 @media (max-width: 520px) {
 
     .displayCard{
-        border: 5px solid white;
+        /* border: 5px solid white; */
         width: 100%;
-       
+        height: 2500rem;
         /* background-color: black; */
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 1%;
         margin-top: 2%;
+        /* border: 1px solid red; */
     }
     
     .displayCard div{
+        /* border: 10px solid red; */
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border: .8rem solid white;
         border-radius: .8rem;
+        width: 80%;
+        margin: auto;
     }
     
     .displayCard img{
-        width: 100%;
+        width: 100% !important;
+        /* border: 10px solid red; */
       
     }
 }

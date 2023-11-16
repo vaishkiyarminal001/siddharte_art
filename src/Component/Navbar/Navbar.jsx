@@ -81,10 +81,10 @@ export const Navbar = () => {
         {/* social media links */}
 
         <div className= {`${NavbarCSS['social-media']}`}>
-            {
+            {/* {
                 <button className={NavbarCSS.langBtn}>English</button>
                 
-            }
+            } */}
 
            
 
